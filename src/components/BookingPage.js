@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "../styles/BookingPage.css";
 import carData from '../data/carData';
 import FilterCheckboxGroup from './FilterCheckboxGroup';
-import CustomAppBar from '../components/CustomAppBar';
+import CustomAppBar from './CustomAppBar';
 
 const BookingPage = () => {
   const [filters, setFilters] = useState({
@@ -111,13 +112,15 @@ const BookingPage = () => {
               <p>No cars available</p>
             ) : (
               filteredCars.map(car => (
-                <div key={car.id} className="car-card">
-                  <img src={car.image} alt={car.name} />
-                  <h3>{car.name}</h3>
-                  <p>Price: {car.price}</p>
-                  <p>Distance: {car.distance}</p>
-                  <p>Rating: {car.rating}</p>
-                </div>
+                <Link key={car.id} to={`/car/${car.id}`} className="car-card-link">
+                  <div className="car-card">
+                    <img src={car.images[0]} alt={car.name} /> {/* Updated from car.image to car.images[0] */}
+                    <h3>{car.name}</h3>
+                    <p>Price: {car.price}</p>
+                    <p>Distance: {car.distance}</p>
+                    <p>Rating: {car.rating}</p>
+                  </div>
+                </Link>
               ))
             )}
           </div>

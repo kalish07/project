@@ -1,0 +1,57 @@
+.become-host-container {
+    padding: 20px;
+  }
+  
+  .become-host-paper {
+    padding: 20px;
+  }
+  
+  .become-host-title {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-subtitle {
+    margin-bottom: 24px;
+  }
+  
+  .become-host-form {
+    margin-top: 20px;
+  }
+  
+  .become-host-input {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-label {
+    margin-top: 16px;
+  }
+  
+  .become-host-select {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-file-upload {
+    margin-top: 16px;
+  }
+  
+  .become-host-file-title {
+    margin-bottom: 8px; /* Ensure there's space below the title */
+    font-weight: bold; /* Make the title bold for better visibility */
+  }
+  
+  .become-host-file-input {
+    margin-top: 8px;
+    width: 100%; /* Ensure input width is 100% */
+  }
+  
+  .become-host-submit {
+    margin-top: 20px;
+  }
+  .become-host-file-title {
+    margin-bottom: 8px; /* Ensure there's space below the title */
+    font-weight: bold; /* Make the title bold for better visibility */
+    color: black; /* Set the text color to black */
+  }
+  .become-host-subtitle {
+    color: black; /* Set the text color to black */
+  }

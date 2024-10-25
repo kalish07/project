@@ -1,0 +1,57 @@
+.become-host-container {
+    padding: 20px;
+  }
+  
+  .become-host-paper {
+    padding: 20px;
+  }
+  
+  .become-host-title {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-subtitle {
+    margin-bottom: 24px;
+  }
+  
+  .become-host-form {
+    margin-top: 20px;
+  }
+  
+  .become-host-input {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-label {
+    margin-top: 16px;
+  }
+  
+  .become-host-select {
+    margin-bottom: 16px;
+  }
+  
+  .become-host-file-upload {
+    margin-top: 16px;
+  }
+  
+  .become-host-file-title {
+    margin-bottom: 8px; 
+    font-weight: bold; 
+  }
+  
+  .become-host-file-input {
+    margin-top: 8px;
+    width: 100%; 
+  }
+  
+  .become-host-submit {
+    margin-top: 20px;
+  }
+  .become-host-file-title {
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    color: black; 
+  }
+  .become-host-subtitle {
+    color: black; 
+  }
